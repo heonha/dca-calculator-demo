@@ -7,7 +7,7 @@
 
 ### **이 강의를 통해 얻으려는 것**
 > 현재 저의 부족한 스택 중 아래의 기술을 잘 사용하려는 목적입니다.
-- API 통신 
+- REST API 
 - Unit Test 
 - MVC Pattern
 - 복잡한 JSON 페이로드를 Simple domain model에 전달하는 방법
