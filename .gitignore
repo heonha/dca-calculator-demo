@@ -1,5 +1,7 @@
 
 
+# Private
+**/Private/*
 
 # MacOS
 .DS_Store
@@ -27,3 +29,5 @@ xcuserdata/
 **/xcshareddata/WorkspaceSettings.xcsettings
 
 # End of https://www.toptal.com/developers/gitignore/api/xcode
+.gitsecret/keys/random_seed
+!*.secret

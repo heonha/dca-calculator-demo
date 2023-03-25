@@ -15,6 +15,9 @@
 		3985BDE129CDEE840001A1F3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3985BDDF29CDEE840001A1F3 /* LaunchScreen.storyboard */; };
 		3985BDEA29CDF0810001A1F3 /* MBProgressHUD in Frameworks */ = {isa = PBXBuildFile; productRef = 3985BDE929CDF0810001A1F3 /* MBProgressHUD */; };
 		3985BDED29CDF0CE0001A1F3 /* Loaf in Frameworks */ = {isa = PBXBuildFile; productRef = 3985BDEC29CDF0CE0001A1F3 /* Loaf */; };
+		398B2BFA29CF0DA700977CA4 /* SearchTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 398B2BF929CF0DA700977CA4 /* SearchTableViewCell.swift */; };
+		398B2C0029CF156A00977CA4 /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 398B2BFF29CF156A00977CA4 /* APIService.swift */; };
+		398B2C0329CF158900977CA4 /* APIKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 398B2C0229CF158900977CA4 /* APIKeys.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +31,9 @@
 		3985BDE229CDEE840001A1F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		398B2BF729CEF0FB00977CA4 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		398B2BF829CEF6BD00977CA4 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		398B2BF929CF0DA700977CA4 /* SearchTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchTableViewCell.swift; sourceTree = "<group>"; };
+		398B2BFF29CF156A00977CA4 /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
+		398B2C0229CF158900977CA4 /* APIKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIKeys.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,15 +70,34 @@
 		3985BDD329CDEE840001A1F3 /* dca-calculator-demo */ = {
 			isa = PBXGroup;
 			children = (
+				398B2C0129CF157F00977CA4 /* Private */,
+				398B2BFE29CF14BF00977CA4 /* Service */,
 				3985BDD429CDEE840001A1F3 /* AppDelegate.swift */,
 				3985BDD629CDEE840001A1F3 /* SceneDelegate.swift */,
 				3985BDD829CDEE840001A1F3 /* SearchTableViewController.swift */,
+				398B2BF929CF0DA700977CA4 /* SearchTableViewCell.swift */,
 				3985BDDA29CDEE840001A1F3 /* Main.storyboard */,
 				3985BDDD29CDEE840001A1F3 /* Assets.xcassets */,
 				3985BDDF29CDEE840001A1F3 /* LaunchScreen.storyboard */,
 				3985BDE229CDEE840001A1F3 /* Info.plist */,
 			);
 			path = "dca-calculator-demo";
+			sourceTree = "<group>";
+		};
+		398B2BFE29CF14BF00977CA4 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				398B2BFF29CF156A00977CA4 /* APIService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		398B2C0129CF157F00977CA4 /* Private */ = {
+			isa = PBXGroup;
+			children = (
+				398B2C0229CF158900977CA4 /* APIKeys.swift */,
+			);
+			path = Private;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -154,7 +179,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				398B2C0329CF158900977CA4 /* APIKeys.swift in Sources */,
 				3985BDD929CDEE840001A1F3 /* SearchTableViewController.swift in Sources */,
+				398B2C0029CF156A00977CA4 /* APIService.swift in Sources */,
+				398B2BFA29CF0DA700977CA4 /* SearchTableViewCell.swift in Sources */,
 				3985BDD529CDEE840001A1F3 /* AppDelegate.swift in Sources */,
 				3985BDD729CDEE840001A1F3 /* SceneDelegate.swift in Sources */,
 			);
