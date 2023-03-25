@@ -10,6 +10,10 @@
 - API 통신 
 - Unit Test 
 - MVC Pattern
+- 복잡한 JSON 페이로드를 Simple domain model에 전달하는 방법
+- Protocol을 사용한 코드 재사용
+- 기타 리펙토링 기법
+
 
 <br>
 

@@ -27,6 +27,7 @@
 		3985BDE029CDEE840001A1F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3985BDE229CDEE840001A1F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		398B2BF729CEF0FB00977CA4 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		398B2BF829CEF6BD00977CA4 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +46,7 @@
 		3985BDC829CDEE840001A1F3 = {
 			isa = PBXGroup;
 			children = (
+				398B2BF829CEF6BD00977CA4 /* .gitignore */,
 				398B2BF729CEF0FB00977CA4 /* README.md */,
 				3985BDD329CDEE840001A1F3 /* dca-calculator-demo */,
 				3985BDD229CDEE840001A1F3 /* Products */,
