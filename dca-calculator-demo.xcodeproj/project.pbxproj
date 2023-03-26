@@ -72,11 +72,11 @@
 		3985BDD329CDEE840001A1F3 /* dca-calculator-demo */ = {
 			isa = PBXGroup;
 			children = (
-				39E0FAD929D0664B0081E169 /* Model */,
-				398B2C0129CF157F00977CA4 /* Private */,
-				398B2BFE29CF14BF00977CA4 /* Service */,
 				3985BDD429CDEE840001A1F3 /* AppDelegate.swift */,
 				3985BDD629CDEE840001A1F3 /* SceneDelegate.swift */,
+				398B2C0129CF157F00977CA4 /* Private */,
+				39E0FAD929D0664B0081E169 /* Model */,
+				398B2BFE29CF14BF00977CA4 /* Service */,
 				3985BDD829CDEE840001A1F3 /* SearchTableViewController.swift */,
 				398B2BF929CF0DA700977CA4 /* SearchTableViewCell.swift */,
 				3985BDDA29CDEE840001A1F3 /* Main.storyboard */,

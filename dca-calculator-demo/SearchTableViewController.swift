@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import Combine
 
 class SearchTableViewController: UITableViewController {
 
@@ -20,36 +21,73 @@ class SearchTableViewController: UITableViewController {
         return sc
     }()
 
+    private var searchResults: SearchResults?
+    private let apiService = APIService()
+    private var subscribers = Set<AnyCancellable>()
+    @Published private var searchQuery = String()
+
     override func viewDidLoad() {
         super.viewDidLoad()
-
         setupSearchController()
+        observeForm()
     }
 
     private func setupSearchController() {
         navigationItem.searchController = searchController
     }
 
+    private func observeForm() {
+
+        $searchQuery
+            .debounce(for: .milliseconds(750), scheduler: RunLoop.main)
+            .sink { [unowned self] (searchQuery) in
+                print(searchQuery)
+
+                self.apiService.fetchSymbolsPublisher(keyword: searchQuery)
+                    .sink { (completion) in
+                        // 데이터스트림 완료시 처리할 코드
+                        switch completion {
+                        case .finished:
+                            break
+                        case .failure(let failure):
+                            print(failure.localizedDescription)
+                            return
+                        }
+                    } receiveValue: { (searchResults) in
+                        // 데이터 스트림에서 발행된 데이터를 처리
+                        print("데이터처리")
+                        print(searchResults)
+                        self.searchResults = searchResults
+                        self.tableView.reloadData()
+
+                    }
+                    .store(in: &self.subscribers)
+            }
+            .store(in: &subscribers)
+    }
+
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "cellId", for: indexPath)
-        
+        guard let cell = tableView.dequeueReusableCell(withIdentifier: "cellId", for: indexPath) as? SearchTableViewCell else {return UITableViewCell()}
+
+        guard let searchResults = searchResults else { return UITableViewCell() }
+
+        let searchResult = searchResults.items[indexPath.row]
+        cell.configure(with: searchResult)
+
         return cell
     }
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 5
+        return searchResults?.items.count ?? 0
     }
-
-
 }
-
 
 extension SearchTableViewController: UISearchResultsUpdating, UISearchControllerDelegate {
 
     func updateSearchResults(for searchController: UISearchController) {
-        //
+        guard let searchQuery = searchController.searchBar.text,
+                !searchQuery.isEmpty else { return }
+
+        self.searchQuery = searchQuery
     }
-
-
-
 }
