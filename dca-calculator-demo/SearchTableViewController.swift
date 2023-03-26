@@ -22,10 +22,8 @@ class SearchTableViewController: UITableViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
 
         setupSearchController()
-        // setup Search VC
     }
 
     private func setupSearchController() {
