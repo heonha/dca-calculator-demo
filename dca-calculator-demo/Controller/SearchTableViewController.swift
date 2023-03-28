@@ -10,6 +10,11 @@ import Combine
 
 class SearchTableViewController: UITableViewController {
 
+    // 현재 뷰 모드
+    private enum Mode {
+        case search
+        case onboarding
+    }
     // Search View Controller init
     lazy var searchController: UISearchController = {
         let sc = UISearchController(searchResultsController: nil)
@@ -21,10 +26,15 @@ class SearchTableViewController: UITableViewController {
         return sc
     }()
 
+    // Local variables
     private var searchResults: SearchResults?
     private let apiService = APIService()
+
+    // Combine variables
     private var subscribers = Set<AnyCancellable>()
     @Published private var searchQuery = String()
+    @Published private var mode: Mode = .onboarding
+
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -64,6 +74,19 @@ class SearchTableViewController: UITableViewController {
                     .store(in: &self.subscribers)
             }
             .store(in: &subscribers)
+
+        $mode.sink { [unowned self] mode in
+            switch mode {
+            case .onboarding:
+                let view = UIView()
+                view.backgroundColor = .green
+                self.tableView.backgroundView = view
+            case .search:
+                self.tableView.backgroundView = nil
+            }
+        }.store(in: &subscribers)
+
+
     }
 
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
@@ -86,8 +109,16 @@ extension SearchTableViewController: UISearchResultsUpdating, UISearchController
 
     func updateSearchResults(for searchController: UISearchController) {
         guard let searchQuery = searchController.searchBar.text,
-                !searchQuery.isEmpty else { return }
+              !searchQuery.isEmpty else { return }
 
         self.searchQuery = searchQuery
+    }
+
+    func willPresentSearchController(_ searchController: UISearchController) {
+        self.mode = .search
+    }
+
+    func willDismissSearchController(_ searchController: UISearchController) {
+        self.mode = .onboarding
     }
 }
