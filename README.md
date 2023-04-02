@@ -1,7 +1,12 @@
-### **This repository is made for study only.**
-
 ### **이 레포지토리의 생성 목적**
-> 이 저장소는 오직 공부용으로만 사용하는 저장소입니다.
+> 이 저장소는 오직 공부용으로만 사용하는 저장소입니다.   
+**This repository is made for study only.**
+
+<br>
+
+## 각 디렉토리 소개
+### 01-dca-calculator
+---
 
 <br>
 
