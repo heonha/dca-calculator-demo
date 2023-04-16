@@ -1,17 +1,10 @@
-### **이 레포지토리의 생성 목적**
-> 이 저장소는 오직 공부용으로만 사용하는 저장소입니다.   
-**This repository is made for study only.**
 
-<br>
-
-## 각 디렉토리 소개
-### 01-dca-calculator
----
-
+## DCA Calculator
 <br>
 
 ### **이 강의를 통해 얻으려는 것**
 > 현재 저의 부족한 스택 중 아래의 기술을 잘 사용하려는 목적입니다.
+- Combine
 - REST API 
 - Unit Test 
 - MVC Pattern
