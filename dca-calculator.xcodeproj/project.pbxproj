@@ -24,7 +24,7 @@
 
 /* Begin PBXFileReference section */
 		397E6A5129EC3005001B7439 /* SearchPlaceholderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchPlaceholderView.swift; sourceTree = "<group>"; };
-		3985BDD129CDEE840001A1F3 /* dca-calculator-demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "dca-calculator-demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3985BDD129CDEE840001A1F3 /* dca-calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "dca-calculator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3985BDD429CDEE840001A1F3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3985BDD629CDEE840001A1F3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		3985BDD829CDEE840001A1F3 /* SearchTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchTableViewController.swift; sourceTree = "<group>"; };
@@ -54,7 +54,7 @@
 		3985BDC829CDEE840001A1F3 = {
 			isa = PBXGroup;
 			children = (
-				3985BDD329CDEE840001A1F3 /* dca-calculator-demo */,
+				3985BDD329CDEE840001A1F3 /* dca-calculator */,
 				3985BDD229CDEE840001A1F3 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -62,12 +62,12 @@
 		3985BDD229CDEE840001A1F3 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				3985BDD129CDEE840001A1F3 /* dca-calculator-demo.app */,
+				3985BDD129CDEE840001A1F3 /* dca-calculator.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		3985BDD329CDEE840001A1F3 /* dca-calculator-demo */ = {
+		3985BDD329CDEE840001A1F3 /* dca-calculator */ = {
 			isa = PBXGroup;
 			children = (
 				3985BDD429CDEE840001A1F3 /* AppDelegate.swift */,
@@ -82,7 +82,7 @@
 				3985BDDF29CDEE840001A1F3 /* LaunchScreen.storyboard */,
 				3985BDE229CDEE840001A1F3 /* Info.plist */,
 			);
-			path = "dca-calculator-demo";
+			path = "dca-calculator";
 			sourceTree = "<group>";
 		};
 		398B2BFE29CF14BF00977CA4 /* Service */ = {
@@ -121,9 +121,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		3985BDD029CDEE840001A1F3 /* dca-calculator-demo */ = {
+		3985BDD029CDEE840001A1F3 /* dca-calculator */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3985BDE529CDEE840001A1F3 /* Build configuration list for PBXNativeTarget "dca-calculator-demo" */;
+			buildConfigurationList = 3985BDE529CDEE840001A1F3 /* Build configuration list for PBXNativeTarget "dca-calculator" */;
 			buildPhases = (
 				3985BDCD29CDEE840001A1F3 /* Sources */,
 				3985BDCE29CDEE840001A1F3 /* Frameworks */,
@@ -133,13 +133,13 @@
 			);
 			dependencies = (
 			);
-			name = "dca-calculator-demo";
+			name = "dca-calculator";
 			packageProductDependencies = (
 				3985BDE929CDF0810001A1F3 /* MBProgressHUD */,
 				3985BDEC29CDF0CE0001A1F3 /* Loaf */,
 			);
 			productName = "dca-calculator-demo";
-			productReference = 3985BDD129CDEE840001A1F3 /* dca-calculator-demo.app */;
+			productReference = 3985BDD129CDEE840001A1F3 /* dca-calculator.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -157,7 +157,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 3985BDCC29CDEE840001A1F3 /* Build configuration list for PBXProject "dca-calculator-demo" */;
+			buildConfigurationList = 3985BDCC29CDEE840001A1F3 /* Build configuration list for PBXProject "dca-calculator" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -174,7 +174,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				3985BDD029CDEE840001A1F3 /* dca-calculator-demo */,
+				3985BDD029CDEE840001A1F3 /* dca-calculator */,
 			);
 		};
 /* End PBXProject section */
@@ -353,7 +353,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = ZH5GA3W8UP;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "dca-calculator-demo/Info.plist";
+				INFOPLIST_FILE = "dca-calculator/Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = "DCA계산기";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.finance";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -367,7 +367,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 0.1;
-				PRODUCT_BUNDLE_IDENTIFIER = "dev.heon.dca-calculator-demo";
+				PRODUCT_BUNDLE_IDENTIFIER = "dev.heon.dca-calculator";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
@@ -387,7 +387,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = ZH5GA3W8UP;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "dca-calculator-demo/Info.plist";
+				INFOPLIST_FILE = "dca-calculator/Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = "DCA계산기";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.finance";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -401,7 +401,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 0.1;
-				PRODUCT_BUNDLE_IDENTIFIER = "dev.heon.dca-calculator-demo";
+				PRODUCT_BUNDLE_IDENTIFIER = "dev.heon.dca-calculator";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
@@ -415,7 +415,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		3985BDCC29CDEE840001A1F3 /* Build configuration list for PBXProject "dca-calculator-demo" */ = {
+		3985BDCC29CDEE840001A1F3 /* Build configuration list for PBXProject "dca-calculator" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3985BDE329CDEE840001A1F3 /* Debug */,
@@ -424,7 +424,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3985BDE529CDEE840001A1F3 /* Build configuration list for PBXNativeTarget "dca-calculator-demo" */ = {
+		3985BDE529CDEE840001A1F3 /* Build configuration list for PBXNativeTarget "dca-calculator" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3985BDE629CDEE840001A1F3 /* Debug */,
