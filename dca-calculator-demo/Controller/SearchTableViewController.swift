@@ -78,8 +78,7 @@ class SearchTableViewController: UITableViewController {
         $mode.sink { [unowned self] mode in
             switch mode {
             case .onboarding:
-                let view = UIView()
-                view.backgroundColor = .green
+                let view = SearchPlaceholderView()
                 self.tableView.backgroundView = view
             case .search:
                 self.tableView.backgroundView = nil

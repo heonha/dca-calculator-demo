@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		397E6A5229EC3005001B7439 /* SearchPlaceholderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 397E6A5129EC3005001B7439 /* SearchPlaceholderView.swift */; };
 		3985BDD529CDEE840001A1F3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3985BDD429CDEE840001A1F3 /* AppDelegate.swift */; };
 		3985BDD729CDEE840001A1F3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3985BDD629CDEE840001A1F3 /* SceneDelegate.swift */; };
 		3985BDD929CDEE840001A1F3 /* SearchTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3985BDD829CDEE840001A1F3 /* SearchTableViewController.swift */; };
@@ -22,6 +23,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		397E6A5129EC3005001B7439 /* SearchPlaceholderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchPlaceholderView.swift; sourceTree = "<group>"; };
 		3985BDD129CDEE840001A1F3 /* dca-calculator-demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "dca-calculator-demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3985BDD429CDEE840001A1F3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3985BDD629CDEE840001A1F3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -111,6 +113,7 @@
 			isa = PBXGroup;
 			children = (
 				3985BDD829CDEE840001A1F3 /* SearchTableViewController.swift */,
+				397E6A5129EC3005001B7439 /* SearchPlaceholderView.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -196,6 +199,7 @@
 			files = (
 				398B2C0329CF158900977CA4 /* APIKeys.swift in Sources */,
 				3985BDD929CDEE840001A1F3 /* SearchTableViewController.swift in Sources */,
+				397E6A5229EC3005001B7439 /* SearchPlaceholderView.swift in Sources */,
 				398B2C0029CF156A00977CA4 /* APIService.swift in Sources */,
 				398B2BFA29CF0DA700977CA4 /* SearchTableViewCell.swift in Sources */,
 				39E0FADB29D066590081E169 /* SearchResults.swift in Sources */,
