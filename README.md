@@ -1,9 +1,8 @@
-
-## DCA Calculator
+## DCA Calculator (공부용)
 <br>
 
 ### **이 강의를 통해 얻으려는 것**
-> 현재 저의 부족한 스택 중 아래의 기술을 잘 사용하려는 목적입니다.
+> 아래의 스택을 보다 더 견고하게 하려는 목적입니다.
 - Combine
 - REST API 
 - Unit Test 
@@ -17,7 +16,7 @@
 
 ---
 
-### **공부용 프로젝트 소개**
+### **프로젝트 소개**
 - UIKit + Storyboard 기반 프로젝트입니다.
 - Dollar cost averaging calculator 를 만듭니다.
 
