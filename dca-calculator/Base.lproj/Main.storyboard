@@ -181,19 +181,19 @@
                                                                 <stackView opaque="NO" contentMode="scaleToFill" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="GCg-aA-j5k">
                                                                     <rect key="frame" x="0.0" y="0.0" width="361" height="13.666666666666666"/>
                                                                     <subviews>
-                                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="투자 금액" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="60O-Hg-B7Z">
+                                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="투자 금액" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="60O-Hg-B7Z">
                                                                             <rect key="frame" x="0.0" y="0.0" width="37.333333333333336" height="13.666666666666666"/>
                                                                             <fontDescription key="fontDescription" name="AvenirNext-Medium" family="Avenir Next" pointSize="10"/>
                                                                             <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                             <nil key="highlightedColor"/>
                                                                         </label>
-                                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="USD" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SIQ-RL-tA3">
+                                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="USD" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SIQ-RL-tA3">
                                                                             <rect key="frame" x="41.333333333333336" y="0.0" width="20.666666666666664" height="13.666666666666666"/>
                                                                             <fontDescription key="fontDescription" name="AvenirNext-Medium" family="Avenir Next" pointSize="10"/>
                                                                             <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                             <nil key="highlightedColor"/>
                                                                         </label>
-                                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="100" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Kfl-l7-VDW">
+                                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" text="100" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Kfl-l7-VDW">
                                                                             <rect key="frame" x="66" y="0.0" width="295" height="13.666666666666666"/>
                                                                             <fontDescription key="fontDescription" name="AvenirNext-Medium" family="Avenir Next" pointSize="10"/>
                                                                             <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -204,29 +204,29 @@
                                                             </subviews>
                                                         </stackView>
                                                         <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="UPD-ss-aF7">
-                                                            <rect key="frame" x="0.0" y="85.333333333333329" width="361" height="19"/>
+                                                            <rect key="frame" x="0.0" y="85.333333333333329" width="361" height="13.666666666666671"/>
                                                             <subviews>
                                                                 <stackView opaque="NO" contentMode="scaleToFill" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="0jI-ai-lC3">
-                                                                    <rect key="frame" x="0.0" y="0.0" width="361" height="19"/>
+                                                                    <rect key="frame" x="0.0" y="0.0" width="361" height="13.666666666666666"/>
                                                                     <subviews>
                                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="수익" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YmD-4o-fTd">
-                                                                            <rect key="frame" x="0.0" y="0.0" width="17.333333333333332" height="19"/>
+                                                                            <rect key="frame" x="0.0" y="0.0" width="17.333333333333332" height="13.666666666666666"/>
                                                                             <fontDescription key="fontDescription" name="AvenirNext-Medium" family="Avenir Next" pointSize="10"/>
                                                                             <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                             <nil key="highlightedColor"/>
                                                                         </label>
                                                                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="VdP-jY-Y2A">
-                                                                            <rect key="frame" x="21.333333333333343" y="0.0" width="244.00000000000003" height="19"/>
+                                                                            <rect key="frame" x="21.333333333333343" y="0.0" width="244.00000000000003" height="13.666666666666666"/>
                                                                             <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                                                         </view>
                                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="+100.25" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eJl-xs-GT0">
-                                                                            <rect key="frame" x="269.33333333333331" y="0.0" width="39.333333333333314" height="19"/>
+                                                                            <rect key="frame" x="269.33333333333331" y="0.0" width="39.333333333333314" height="13.666666666666666"/>
                                                                             <fontDescription key="fontDescription" name="AvenirNext-Medium" family="Avenir Next" pointSize="10"/>
                                                                             <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                             <nil key="highlightedColor"/>
                                                                         </label>
                                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="(+10.25%)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NkH-4j-YET">
-                                                                            <rect key="frame" x="312.66666666666669" y="0.0" width="48.333333333333314" height="19"/>
+                                                                            <rect key="frame" x="312.66666666666669" y="0.0" width="48.333333333333314" height="13.666666666666666"/>
                                                                             <fontDescription key="fontDescription" name="AvenirNext-Medium" family="Avenir Next" pointSize="10"/>
                                                                             <color key="textColor" systemColor="systemGreenColor"/>
                                                                             <nil key="highlightedColor"/>
@@ -236,19 +236,23 @@
                                                             </subviews>
                                                         </stackView>
                                                         <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="RdN-yc-lcT">
-                                                            <rect key="frame" x="0.0" y="104.33333333333333" width="361" height="13.666666666666671"/>
+                                                            <rect key="frame" x="0.0" y="99" width="361" height="19"/>
                                                             <subviews>
                                                                 <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2tU-rs-f3e">
-                                                                    <rect key="frame" x="0.0" y="0.0" width="361" height="13.666666666666666"/>
+                                                                    <rect key="frame" x="0.0" y="0.0" width="361" height="19"/>
                                                                     <subviews>
-                                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="연간 수익률" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nuB-tG-BOX">
-                                                                            <rect key="frame" x="0.0" y="0.0" width="331.66666666666669" height="13.666666666666666"/>
+                                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="연간 수익률" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nuB-tG-BOX">
+                                                                            <rect key="frame" x="0.0" y="0.0" width="46" height="19"/>
                                                                             <fontDescription key="fontDescription" name="AvenirNext-Medium" family="Avenir Next" pointSize="10"/>
                                                                             <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                             <nil key="highlightedColor"/>
                                                                         </label>
-                                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="10.5%" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Z3J-9S-SaE">
-                                                                            <rect key="frame" x="331.66666666666669" y="0.0" width="29.333333333333314" height="13.666666666666666"/>
+                                                                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gB8-Ep-CmY">
+                                                                            <rect key="frame" x="46" y="0.0" width="285.66666666666669" height="19"/>
+                                                                            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                                                        </view>
+                                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="10.5%" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Z3J-9S-SaE">
+                                                                            <rect key="frame" x="331.66666666666669" y="0.0" width="29.333333333333314" height="19"/>
                                                                             <fontDescription key="fontDescription" name="AvenirNext-Medium" family="Avenir Next" pointSize="10"/>
                                                                             <color key="textColor" systemColor="systemGreenColor"/>
                                                                             <nil key="highlightedColor"/>
@@ -268,15 +272,15 @@
                                             </constraints>
                                         </tableViewCellContentView>
                                     </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" rowHeight="200" id="Wfg-PY-jcd">
-                                        <rect key="frame" x="0.0" y="200" width="393" height="200"/>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" rowHeight="220" id="Wfg-PY-jcd">
+                                        <rect key="frame" x="0.0" y="200" width="393" height="220"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Wfg-PY-jcd" id="TXI-Ud-ULs">
-                                            <rect key="frame" x="0.0" y="0.0" width="393" height="200"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="393" height="220"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="-3" translatesAutoresizingMaskIntoConstraints="NO" id="Glw-YY-uzd">
-                                                    <rect key="frame" x="16" y="8" width="361" height="184"/>
+                                                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="Glw-YY-uzd">
+                                                    <rect key="frame" x="16" y="4" width="361" height="212"/>
                                                     <subviews>
                                                         <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="1uE-CJ-vO5">
                                                             <rect key="frame" x="0.0" y="0.0" width="361" height="53.666666666666664"/>
@@ -310,7 +314,7 @@
                                                             </subviews>
                                                         </stackView>
                                                         <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="gZ5-bZ-eRQ">
-                                                            <rect key="frame" x="0.0" y="50.666666666666671" width="361" height="53.666666666666671"/>
+                                                            <rect key="frame" x="0.0" y="61.666666666666671" width="361" height="53.666666666666671"/>
                                                             <subviews>
                                                                 <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="월별 투자 할 금액 평균" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="oPr-dw-Wc9">
                                                                     <rect key="frame" x="0.0" y="0.0" width="361" height="36"/>
@@ -322,7 +326,7 @@
                                                                     <textInputTraits key="textInputTraits"/>
                                                                 </textField>
                                                                 <stackView opaque="NO" contentMode="scaleToFill" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="tsw-cI-fZm">
-                                                                    <rect key="frame" x="0.0" y="40.000000000000007" width="361" height="13.666666666666664"/>
+                                                                    <rect key="frame" x="0.0" y="40" width="361" height="13.666666666666664"/>
                                                                     <subviews>
                                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="252" verticalHuggingPriority="251" text="월별 평균 투자 금액" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bUf-ne-3sd">
                                                                             <rect key="frame" x="0.0" y="0.0" width="77" height="13.666666666666666"/>
@@ -341,7 +345,7 @@
                                                             </subviews>
                                                         </stackView>
                                                         <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="cp8-eu-jUc">
-                                                            <rect key="frame" x="0.0" y="101.33333333333333" width="361" height="53.666666666666671"/>
+                                                            <rect key="frame" x="0.0" y="123.33333333333333" width="361" height="53.666666666666671"/>
                                                             <subviews>
                                                                 <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="초기 투자 날짜를 입력하세요." textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="lKu-BD-vIU">
                                                                     <rect key="frame" x="0.0" y="0.0" width="361" height="36"/>
@@ -372,16 +376,16 @@
                                                             </subviews>
                                                         </stackView>
                                                         <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="dKI-qh-aEE">
-                                                            <rect key="frame" x="-2" y="152" width="365" height="33"/>
+                                                            <rect key="frame" x="-2" y="185" width="365" height="28"/>
                                                         </slider>
                                                     </subviews>
                                                 </stackView>
                                             </subviews>
                                             <constraints>
-                                                <constraint firstItem="Glw-YY-uzd" firstAttribute="top" secondItem="TXI-Ud-ULs" secondAttribute="top" constant="8" id="3UE-oE-qv1"/>
+                                                <constraint firstItem="Glw-YY-uzd" firstAttribute="top" secondItem="TXI-Ud-ULs" secondAttribute="top" constant="4" id="3UE-oE-qv1"/>
                                                 <constraint firstAttribute="trailing" secondItem="Glw-YY-uzd" secondAttribute="trailing" constant="16" id="Bky-QS-lgm"/>
                                                 <constraint firstItem="Glw-YY-uzd" firstAttribute="leading" secondItem="TXI-Ud-ULs" secondAttribute="leading" constant="16" id="PU4-w4-VY4"/>
-                                                <constraint firstAttribute="bottom" secondItem="Glw-YY-uzd" secondAttribute="bottom" constant="8" id="o2f-a7-tYc"/>
+                                                <constraint firstAttribute="bottom" secondItem="Glw-YY-uzd" secondAttribute="bottom" constant="4" id="o2f-a7-tYc"/>
                                             </constraints>
                                         </tableViewCellContentView>
                                     </tableViewCell>
