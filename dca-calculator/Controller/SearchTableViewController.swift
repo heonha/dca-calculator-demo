@@ -103,6 +103,11 @@ class SearchTableViewController: UITableViewController, UIAnimatable {
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return searchResults?.items.count ?? 0
     }
+
+    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        performSegue(withIdentifier: "showCalculator", sender: nil)
+    }
+
 }
 
 extension SearchTableViewController: UISearchResultsUpdating, UISearchControllerDelegate {
