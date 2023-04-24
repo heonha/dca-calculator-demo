@@ -12,8 +12,8 @@
         <scene sceneID="bIc-Eb-s6x">
             <objects>
                 <navigationController id="mly-NM-S72" sceneMemberID="viewController">
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="93Z-pj-YZY">
-                        <rect key="frame" x="0.0" y="59" width="393" height="44"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" largeTitles="YES" id="93Z-pj-YZY">
+                        <rect key="frame" x="0.0" y="59" width="393" height="96"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <connections>
@@ -27,13 +27,13 @@
         <!--Search Table View Controller-->
         <scene sceneID="cvs-l7-Run">
             <objects>
-                <tableViewController id="4eJ-sE-PHz" customClass="SearchTableViewController" customModule="dca_calculator_demo" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController id="4eJ-sE-PHz" customClass="SearchTableViewController" customModule="dca_calculator" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" id="y2g-Mg-Wli">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="cellId" rowHeight="88" id="sYk-Y2-YCY" customClass="SearchTableViewCell" customModule="dca_calculator_demo" customModuleProvider="target">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="cellId" rowHeight="88" id="sYk-Y2-YCY" customClass="SearchTableViewCell" customModule="dca_calculator" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="50" width="393" height="88"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="sYk-Y2-YCY" id="sqC-0I-2yI">
