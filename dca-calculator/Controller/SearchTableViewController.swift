@@ -8,7 +8,7 @@
 import UIKit
 import Combine
 
-class SearchTableViewController: UITableViewController {
+class SearchTableViewController: UITableViewController, UIAnimatable {
 
     // 현재 뷰 모드
     private enum Mode {
@@ -52,9 +52,10 @@ class SearchTableViewController: UITableViewController {
             .debounce(for: .milliseconds(750), scheduler: RunLoop.main)
             .sink { [unowned self] (searchQuery) in
                 print(searchQuery)
-
+                self.showLoadingIndicator()
                 self.apiService.fetchSymbolsPublisher(keyword: searchQuery)
                     .sink { (completion) in
+                        self.hideLoadingIndicator()
                         // 데이터스트림 완료시 처리할 코드
                         switch completion {
                         case .finished:
