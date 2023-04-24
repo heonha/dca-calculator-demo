@@ -23,9 +23,9 @@ class SearchPlaceholderView: UIView {
 
     let titleLabel: UILabel = {
         let label = UILabel()
-        label.text = "원하는 회사의 DCA를 검색해보세요."
+        label.text = "Dollar-Cost Averaging이란? \n일정한 금액을 일정한 간격으로 투자하여 매매 시점의 가격 변동을 상쇄하려는 투자 전략입니다."
         label.translatesAutoresizingMaskIntoConstraints = false
-        label.font = UIFont.systemFont(ofSize: 14)
+        label.font = UIFont.systemFont(ofSize: 15)
         label.numberOfLines = 0
         label.textAlignment = .center
         return label
@@ -59,7 +59,5 @@ class SearchPlaceholderView: UIView {
             imageView.heightAnchor.constraint(equalToConstant: 88),
         ])
     }
-
-
 
 }

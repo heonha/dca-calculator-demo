@@ -23,7 +23,10 @@ struct APIService {
 
         let urlString = "https://www.alphavantage.co/query?function=SYMBOL_SEARCH&keywords=\(keyword)&apikey=\(API_KEY)"
 
-        let url = URL(string: urlString)!
+        guard let url = URL(string: urlString) else {
+            let error = NSError(domain: "올바르지 않은 URL", code: 0, userInfo: nil)
+            return Fail(error: error).eraseToAnyPublisher()
+        }
 
         let session = URLSession.shared.dataTaskPublisher(for: url)
             .map{ $0.data } // data만 추출
